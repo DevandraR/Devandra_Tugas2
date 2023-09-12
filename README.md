@@ -11,7 +11,9 @@ Jawaban Pertanyaan
    <br>
 
 4. Jelaskan mengapa kita menggunakan virtual environment? Apakah kita tetap dapat membuat aplikasi web berbasis Django tanpa menggunakan virtual environment? <br>
-   Jawab : <br>
+   Jawab :  <br>
+   virtual environment pada python digunakan untuk memisahkan package yang di install pada project dari data lainnya, memisahkan package dan dependency yang diinstall agar tidak terjadi tabrakan antar project. kita    tetap bisa membuat app django tanpa virtual environment, namun package python kemungkinan besar akan menjadi berantakan.
+   <br>
 
-5. Jelaskan apakah itu MVC, MVT, MVVM dan perbedaan dari ketiganya. <br>
+6. Jelaskan apakah itu MVC, MVT, MVVM dan perbedaan dari ketiganya. <br>
    Jawab : <br>
