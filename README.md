@@ -48,5 +48,19 @@ link app adaptable : [devandra-tugas2](https://devandra-tugas2.adaptable.app/mai
 4. Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas secara step-by-step (bukan hanya sekadar mengikuti tutorial). <br>
    Jawab : <br>
    
-   Mengakses kelima URL di poin 2 menggunakan Postman, membuat screenshot dari hasil akses URL pada Postman, dan menambahkannya ke dalam README.md.
+   Postman HTML <br>
+   ![Postman_HTML_Tugas3](https://github.com/DevandraR/Devandra_Tugas2/assets/96380686/1f43d95f-2d73-4b0e-aa19-e43ff8a04c23) <br>
+
+   Postman XML <br>
+   ![Postman_XML_Tugas3](https://github.com/DevandraR/Devandra_Tugas2/assets/96380686/33410498-edd1-49aa-9e51-054c0637a921) <br>
+
+   Postman JSON <br>
+   ![Postman_JSON_Tugas3](https://github.com/DevandraR/Devandra_Tugas2/assets/96380686/dbf967d2-9807-4375-9074-e3228938dd4a) <br>
+
+   Postman XML id <br>
+   ![Postman_XML_id_Tugas3](https://github.com/DevandraR/Devandra_Tugas2/assets/96380686/aaff5ee4-d221-439a-8996-e318ef03542d) <br>
+
+   Postman JSON id <br>
+   ![Postman_JSON_id_Tugas3](https://github.com/DevandraR/Devandra_Tugas2/assets/96380686/bae3c038-0909-4f6b-bb58-8703bca9eb5d) <br>
+
 </details>
