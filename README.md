@@ -32,3 +32,21 @@ link app adaptable : [devandra-tugas2](https://devandra-tugas2.adaptable.app/mai
       Pada MVVM, view dikendalikan oleh viewmodel, jadi jika ada perubahan pada model, viewmodel akan langsung merespon dengan mengubah view. jadi perbedaannya adalah dalam interface dengan view dan modelnya MVC       menggunakan controller, MVT menggunakan url, MVVM menggunakan viewmodel.<br>
 </details>
 
+<details>
+   <summary>Tugas 3</summary>
+   Jawaban Pertanyaan
+   
+1. Apa perbedaan antara form POST dan form GET dalam Django? <br>
+   Jawab : <br>
+      
+2. Apa perbedaan utama antara XML, JSON, dan HTML dalam konteks pengiriman data? <br>
+   Jawab : <br>
+   
+3. Mengapa JSON sering digunakan dalam pertukaran data antara aplikasi web modern? <br>
+   Jawab : <br>
+   
+4. Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas secara step-by-step (bukan hanya sekadar mengikuti tutorial). <br>
+   Jawab : <br>
+   
+   Mengakses kelima URL di poin 2 menggunakan Postman, membuat screenshot dari hasil akses URL pada Postman, dan menambahkannya ke dalam README.md.
+</details>
