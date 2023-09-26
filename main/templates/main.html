@@ -7,10 +7,10 @@
     <p>{{nama_aplikasi}}</p>
     
     <h5>Name:</h5>
-    <p>{{name}}</p>
+    <p>{{nama}}</p>
 
     <h5>Class:</h5>
-    <p>{{class}}</p>
+    <p>{{kelas}}</p>
 
 <table>
     <tr>
@@ -34,8 +34,16 @@
 
 <a href="{% url 'main:create_product' %}">
     <button>
-        Add New Product
+        Add New Item
     </button>
 </a>
+
+<a href="{% url 'main:logout' %}">
+    <button>
+        Logout
+    </button>
+</a>
+
+<h5>Waktu terakhir login: {{ last_login }}</h5>
 
 {% endblock content %}
