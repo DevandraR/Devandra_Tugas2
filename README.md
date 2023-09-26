@@ -68,3 +68,29 @@ link app adaptable : [devandra-tugas2](https://devandra-tugas2.adaptable.app/mai
    ![Postman_JSON_id_Tugas3](https://github.com/DevandraR/Devandra_Tugas2/assets/96380686/bae3c038-0909-4f6b-bb58-8703bca9eb5d) <br>
 
 </details>
+
+<details>
+   <summary>Tugas 4</summary>
+   Jawaban Pertanyaan
+   
+1. Apa itu Django UserCreationForm, dan jelaskan apa kelebihan dan kekurangannya? <br>
+   Jawab : <br>
+   UserCreationForm adalah form input untuk pendaftaran user di web, dan sudah menjadi bawaan di django. UserCreationForm memiliki fungsi bawaan seperti validasi password untuk menentukan password yang aman. Kelebihan dari UserCreationForm adalah seperti yang disebutkan tadi, yaitu lebih praktis karena sudah ada fitur bawaan yang sudah bisa kita langsung pakai tanpa harus ngoding ulang. Kekurangannya adalah UserCreationForm hanya bisa dipakai pada kasus umum saja, jika ingin mengubah format atau tampilan, maka harus membuat form manual, ditambah lagi jika ingin membuat validasi khusus, lebih baik cara lain. <br>
+   
+2. Apa perbedaan antara autentikasi dan otorisasi dalam konteks Django, dan mengapa keduanya penting? <br>
+   Jawab : <br>
+   Autentikasi adalah proses menentukan identitas pengguna apakah mereka adalah orang yang sama dengan orang yang awal mendaftar, jadi autentikasi memeriksa apakah pengguna asli atau tidak. Sementara itu, Otorisasi adalah penentuan daerah akses oleh setiap pengguna, jadi menentukan bagian mana saja pada aplikasi yang dapat diakses oleh pengguna. Keduanya harus diimplementasikan secara baik untuk menjadi keamanan dan kenyamanan pengguna aplikasi. <br>
+   
+3. Apa itu cookies dalam konteks aplikasi web, dan bagaimana Django menggunakan cookies untuk mengelola data sesi pengguna? <br>
+   Jawab : <br>
+   cookies adalah data yang dikirim dari server ke lokal, contohnya seperti, kita dapat login otomatis di sebuah aplikasi tanpa memasukkan kembali username dan password. Pada sesi pengguna, saat terakhir login, Django akan menyimpan waktu login dengan fungsi set_cookies, lalu dapat ditampiklkan kembali menggunakan fungsi get
+   
+4. Apakah penggunaan cookies aman secara default dalam pengembangan web, atau apakah ada risiko potensial yang harus diwaspadai? <br>
+   Jawab : <br>
+   resiko pada penggunaan cookies contohnya adalah salah satunya adalah penyadapan data, karena cookies yang dikirim tidak ada enkripsi, ini membuatnya rentan jika ada dalam koneksi yang tidak aman, lalu ada cross site scripting, ini adalah serangan berbahaya yang serangannya adalah memmasukkan skrip berbahaya ke dalam cookies pengguna, lalu dapat dijalankan oleh pengguna.
+   
+5. Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas secara step-by-step (bukan hanya sekadar mengikuti tutorial). <br>
+   Jawab : <br>
+   yang pertama, kita buat bagian registrasi dan loginnyanya dengan menambahkan fungsi registrasi dan login di views, membuat template registrasi dan login lalu routing di url. Yang kedua, kita juga buat fungsi logout dengan menambahkan fungsi di views dan menambah tombol logout di templatenya, lalu routing di url. Yang ketiga kita dapat merestriksi akses pada main dengan menambahkan login_required. Yang keempat, kita akan menyimpan data waktu saat login dan menampilkannya saat selanjutnya menggunakan cookies. Dan yang terakhir kita dapat menghubungkan user dengan item yang ada.
+   
+</details>
