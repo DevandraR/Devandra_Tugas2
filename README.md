@@ -83,14 +83,40 @@ link app adaptable : [devandra-tugas2](https://devandra-tugas2.adaptable.app/mai
    
 3. Apa itu cookies dalam konteks aplikasi web, dan bagaimana Django menggunakan cookies untuk mengelola data sesi pengguna? <br>
    Jawab : <br>
-   cookies adalah data yang dikirim dari server ke lokal, contohnya seperti, kita dapat login otomatis di sebuah aplikasi tanpa memasukkan kembali username dan password. Pada sesi pengguna, saat terakhir login, Django akan menyimpan waktu login dengan fungsi set_cookies, lalu dapat ditampiklkan kembali menggunakan fungsi get
+   cookies adalah data yang dikirim dari server ke lokal, contohnya seperti, kita dapat login otomatis di sebuah aplikasi tanpa memasukkan kembali username dan password. Pada sesi pengguna, saat terakhir login, Django akan menyimpan waktu login dengan fungsi set_cookies, lalu dapat ditampiklkan kembali menggunakan fungsi get <br>
    
 4. Apakah penggunaan cookies aman secara default dalam pengembangan web, atau apakah ada risiko potensial yang harus diwaspadai? <br>
    Jawab : <br>
-   resiko pada penggunaan cookies contohnya adalah salah satunya adalah penyadapan data, karena cookies yang dikirim tidak ada enkripsi, ini membuatnya rentan jika ada dalam koneksi yang tidak aman, lalu ada cross site scripting, ini adalah serangan berbahaya yang serangannya adalah memmasukkan skrip berbahaya ke dalam cookies pengguna, lalu dapat dijalankan oleh pengguna.
+   resiko pada penggunaan cookies contohnya adalah salah satunya adalah penyadapan data, karena cookies yang dikirim tidak ada enkripsi, ini membuatnya rentan jika ada dalam koneksi yang tidak aman, lalu ada cross site scripting, ini adalah serangan berbahaya yang serangannya adalah memmasukkan skrip berbahaya ke dalam cookies pengguna, lalu dapat dijalankan oleh pengguna. <br>
    
 5. Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas secara step-by-step (bukan hanya sekadar mengikuti tutorial). <br>
    Jawab : <br>
-   yang pertama, kita buat bagian registrasi dan loginnyanya dengan menambahkan fungsi registrasi dan login di views, membuat template registrasi dan login lalu routing di url. Yang kedua, kita juga buat fungsi logout dengan menambahkan fungsi di views dan menambah tombol logout di templatenya, lalu routing di url. Yang ketiga kita dapat merestriksi akses pada main dengan menambahkan login_required. Yang keempat, kita akan menyimpan data waktu saat login dan menampilkannya saat selanjutnya menggunakan cookies. Dan yang terakhir kita dapat menghubungkan user dengan item yang ada.
+   yang pertama, kita buat bagian registrasi dan loginnyanya dengan menambahkan fungsi registrasi dan login di views, membuat template registrasi dan login lalu routing di url. Yang kedua, kita juga buat fungsi logout dengan menambahkan fungsi di views dan menambah tombol logout di templatenya, lalu routing di url. Yang ketiga kita dapat merestriksi akses pada main dengan menambahkan login_required. Yang keempat, kita akan menyimpan data waktu saat login dan menampilkannya saat selanjutnya menggunakan cookies. Dan yang terakhir kita dapat menghubungkan user dengan item yang ada. <br>
+   
+</details>
+
+<details>
+   <summary>Tugas 5</summary>
+   Jawaban Pertanyaan
+   
+1. Jelaskan manfaat dari setiap element selector dan kapan waktu yang tepat untuk menggunakannya. <br>
+   Jawab : <br>
+   
+   
+2. Jelaskan HTML5 Tag yang kamu ketahui. <br>
+   Jawab : <br>
+
+   
+3. Jelaskan perbedaan antara margin dan padding. <br>
+   Jawab : <br>
+
+   
+4. Jelaskan perbedaan antara framework CSS Tailwind dan Bootstrap. Kapan sebaiknya kita menggunakan Bootstrap daripada Tailwind, dan sebaliknya? <br>
+   Jawab : <br>
+
+   
+5. Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas secara step-by-step (bukan hanya sekadar mengikuti tutorial). <br>
+   Jawab : <br>
+   
    
 </details>
