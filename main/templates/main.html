@@ -1,22 +1,47 @@
 {% extends 'base.html' %}
 
 {% block content %}
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">PBPapp</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="#">Main</a>
+          <a class="nav-link active" aria-current="page" href="{% url 'main:create_product' %}">Add product</a>
+        </div>
+      </div>
+    </div>
+</nav>
+
+<div class="main">
     <h1>Inventori PBP</h1>
 
-    <h5>Nama Aplikasi: </h5>
-    <p>{{nama_aplikasi}}</p>
-    
-    <h5>Name:</h5>
-    <p>{{nama}}</p>
+    <div class="profile">
+        <div class="nama_aplikasi">
+            <h5>Nama Aplikasi: </h5>
+            <p>{{nama_aplikasi}}</p>
+        </div>
+        
+        <div class="nama_pengguna">
+            <h5>Name:</h5>
+            <p>{{nama}}</p>
+        </div>
 
-    <h5>Class:</h5>
-    <p>{{kelas}}</p>
+        <div class="kelas_pengguna">
+            <h5>Class:</h5>
+            <p>{{kelas}}</p>
+        </div>
+    </div>
 
-<table>
+<table class="table w-auto bg-primary">
     <tr>
         <th>Name</th>
         <th>Amount</th>
         <th>Description</th>
+        <th></th>
     </tr>
 
     {% comment %} Berikut cara memperlihatkan data produk di bawah baris ini {% endcomment %}
@@ -26,6 +51,18 @@
             <td>{{product.name}}</td>
             <td>{{product.amount}}</td>
             <td>{{product.description}}</td>
+            <td>
+                <a href="{% url 'main:edit_product' product.pk %}">
+                    <buttontype="button" class="btn btn-secondary">
+                        Edit
+                    </button>
+                </a>
+                <a href="{% url 'main:delete_product' product.pk %}">
+                      <button type="button" class="btn btn-secondary">
+                          Delete
+                      </button>
+                  </a>
+            </td>
         </tr>
     {% endfor %}
 </table>
@@ -33,17 +70,60 @@
 <br />
 
 <a href="{% url 'main:create_product' %}">
-    <button>
+    <button type="button" class="btn btn-primary">
         Add New Item
     </button>
 </a>
 
 <a href="{% url 'main:logout' %}">
-    <button>
+    <button type="button" class="btn btn-primary">
         Logout
     </button>
 </a>
 
+
+
 <h5>Waktu terakhir login: {{ last_login }}</h5>
+</div>
+
+<style>
+    .main {
+        font-family: 'Gabarito', cursive;
+        font-family: 'Jost', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .profile {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .nama_aplikasi {
+        padding-right: 20%;
+    }
+
+    .nama_pengguna {
+        padding-right: 20%;
+        padding-left: 20%;
+    }
+
+    .kelas_pengguna {
+        padding-left: 20%;
+    }
+
+    table, tr, th, td {
+        border: 1px solid;
+    }
+    
+    button {
+        background-color: transparent;
+        margin: 10px;
+    }
+</style>
 
 {% endblock content %}
