@@ -120,3 +120,24 @@ link app adaptable : [devandra-tugas2](https://devandra-tugas2.adaptable.app/mai
    saya mengimplementasi checklist menggunakan gabungan antara css biasa dan bootstrap, untuk css saya tambahkan seperti display flex dan lainnya, dan saya menggunakan bootstrap untuk template navbar, desain button, input dan lain-lain.
    
 </details>
+
+<details>
+   <summary>Tugas 6</summary>
+   Jawaban Pertanyaan
+
+1. Jelaskan perbedaan antara asynchronous programming dengan synchronous programming. <br>
+   Jawab : <br>
+   
+   
+2. Dalam penerapan JavaScript dan AJAX, terdapat penerapan paradigma event-driven programming. Jelaskan maksud dari paradigma tersebut dan sebutkan salah satu contoh penerapannya pada tugas ini. <br>
+   Jawab : <br>
+   
+3. Jelaskan penerapan asynchronous programming pada AJAX. <br>
+   Jawab : <br>
+   
+4. Pada PBP kali ini, penerapan AJAX dilakukan dengan menggunakan Fetch API daripada library jQuery. Bandingkanlah kedua teknologi tersebut dan tuliskan pendapat kamu teknologi manakah yang lebih baik untuk digunakan. <br>
+   Jawab : <br>
+5. Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas secara step-by-step (bukan hanya sekadar mengikuti tutorial). <br>
+   Jawab : <br>
+   
+</details>
