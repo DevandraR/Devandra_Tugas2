@@ -101,11 +101,11 @@ link app adaptable : [devandra-tugas2](https://devandra-tugas2.adaptable.app/mai
    
 1. Jelaskan manfaat dari setiap element selector dan kapan waktu yang tepat untuk menggunakannya. <br>
    Jawab : <br>
-   element selector berfungsi untuk mengubah sifat dari semua tag HTML yang sama, contohnya seperti jika saya menggunakan banyak tag '<h1>' di html saya, dan saya ingin mengubah semua fontnya menjadi lebih sama, oleh karena itu saya akan menggunakan element selector karena dengan sekali tulis, semua tag <h1> akan berubah sesuai keinginan, daripada memberikan class satu persatu.
+   element selector berfungsi untuk mengubah sifat dari semua tag HTML yang sama, contohnya seperti jika saya menggunakan banyak tag /*<h1>*/ di html saya, dan saya ingin mengubah semua fontnya menjadi lebih sama, oleh karena itu saya akan menggunakan element selector karena dengan sekali tulis, semua tag /*<h1>*/ akan berubah sesuai keinginan, daripada memberikan class satu persatu.
    
 2. Jelaskan HTML5 Tag yang kamu ketahui. <br>
    Jawab : <br>
-   yang saya ketahui seperti <h1> hingga <h5> untuk membuat text header dari <h1> yang paling besar hingga <h5> yang paling kecil, tag <p> untuk menambahkan paragraph, tag <div> digunakan sebagai container untuk mengelompokkan suatu bagian html, tag <table> untuk membuat table, tag <tr> berfungsi untuk tempat row pada table, tag <th> berfungsi sebagai header pada table, tag <td> berfungsi sebagai isi dari table tag <style> untuk menambahkan css di file html langsung.
+   yang saya ketahui seperti /*<h1>*/ hingga <h5> untuk membuat text header dari /*<h1>*/ yang paling besar hingga /*<h5>*/ yang paling kecil, tag /*<p>*/ untuk menambahkan paragraph, tag /*<div>*/ digunakan sebagai container untuk mengelompokkan suatu bagian html, tag /*<table>*/ untuk membuat table, tag /*<tr>*/ berfungsi untuk tempat row pada table, tag /*<th>*/ berfungsi sebagai header pada table, tag /*<td>*/ berfungsi sebagai isi dari table tag /*<style>*/ untuk menambahkan css di file html langsung.
    
 3. Jelaskan perbedaan antara margin dan padding. <br>
    Jawab : <br>
