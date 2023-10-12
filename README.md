@@ -131,15 +131,18 @@ link app adaptable : [devandra-tugas2](https://devandra-tugas2.adaptable.app/mai
    
 2. Dalam penerapan JavaScript dan AJAX, terdapat penerapan paradigma event-driven programming. Jelaskan maksud dari paradigma tersebut dan sebutkan salah satu contoh penerapannya pada tugas ini. <br>
    Jawab : <br>
-   event-driven programming adalah paradigma dimana semua bagian dari program, objek, dan lainnya berkomunikasi satu sama lain, contoh dalam tugas ini adalah, saat kita menekan tombol tambahkan item, maka akan muncul form untuk menulis item baru, lalu saat kita submit formnya, maka langsung diupdate item barunya pada tampilan.
+   event-driven programming adalah paradigma dimana semua bagian dari program, objek, dan lainnya berkomunikasi satu sama lain, contoh dalam tugas ini adalah, saat kita menekan tombol tambahkan item, maka akan muncul form untuk menulis item baru, lalu saat kita submit formnya, maka langsung diupdate item barunya pada tampilan. <br>
    
 3. Jelaskan penerapan asynchronous programming pada AJAX. <br>
    Jawab : <br>
+   asynchronous programming pada ajax memungkinkan javascript untuk mengirim request tanpa menunggu response, contohnya saat kita memanggil fungsi yang asynchronous pada javascript, request akan dikirim namun program selanjutnya akan terus dijalankan. <br>
    
 4. Pada PBP kali ini, penerapan AJAX dilakukan dengan menggunakan Fetch API daripada library jQuery. Bandingkanlah kedua teknologi tersebut dan tuliskan pendapat kamu teknologi manakah yang lebih baik untuk digunakan. <br>
    Jawab : <br>
+   fetch api adalah native atau bawaan dari browser javascript, namun jQuery hanyalah library, dan ada beberapa perbedaan syntax, seperti fetch yang menggunakan promise, namun jquery lebih simple dalam penggunaannya. <br>
    
 5. Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas secara step-by-step (bukan hanya sekadar mengikuti tutorial). <br>
    Jawab : <br>
+   pertama, saya buat fungsi untuk GET dan POST pada views.py, lalu akan ditambahkan ke urls.py, setelah itu baru saya modifikasi file htmlnya agar tabel dapat dimodifikasi dengan ajax. pada scripts di html saya menambahkan refresh untuk mengupdate tabel data secara real time, lalu juga ada fungsi untuk menambahkan item ke produk menggunakan modal dari bootstrap. <br>
    
 </details>
