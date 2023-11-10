@@ -101,23 +101,23 @@ link app adaptable : [devandra-tugas2](https://devandra-tugas2.adaptable.app/mai
    
 1. Jelaskan manfaat dari setiap element selector dan kapan waktu yang tepat untuk menggunakannya. <br>
    Jawab : <br>
-   element selector berfungsi untuk mengubah sifat dari semua tag HTML yang sama, contohnya seperti jika saya menggunakan banyak tag (h1) di html saya, dan saya ingin mengubah semua fontnya menjadi lebih sama, oleh karena itu saya akan menggunakan element selector karena dengan sekali tulis, semua tag (h1) akan berubah sesuai keinginan, daripada memberikan class satu persatu.
+   element selector berfungsi untuk mengubah sifat dari semua tag HTML yang sama, contohnya seperti jika saya menggunakan banyak tag (h1) di html saya, dan saya ingin mengubah semua fontnya menjadi lebih sama, oleh karena itu saya akan menggunakan element selector karena dengan sekali tulis, semua tag (h1) akan berubah sesuai keinginan, daripada memberikan class satu persatu. <br>
    
 2. Jelaskan HTML5 Tag yang kamu ketahui. <br>
    Jawab : <br>
-   yang saya ketahui seperti (h1) hingga (h5) untuk membuat text header dari (h1) yang paling besar hingga (h5) yang paling kecil, tag (p) untuk menambahkan paragraph, tag (div) digunakan sebagai container untuk mengelompokkan suatu bagian html, tag (table) untuk membuat table, tag (tr) berfungsi untuk tempat row pada table, tag (th) berfungsi sebagai header pada table, tag (td) berfungsi sebagai isi dari table tag (style) untuk menambahkan css di file html langsung.
+   yang saya ketahui seperti (h1) hingga (h5) untuk membuat text header dari (h1) yang paling besar hingga (h5) yang paling kecil, tag (p) untuk menambahkan paragraph, tag (div) digunakan sebagai container untuk mengelompokkan suatu bagian html, tag (table) untuk membuat table, tag (tr) berfungsi untuk tempat row pada table, tag (th) berfungsi sebagai header pada table, tag (td) berfungsi sebagai isi dari table tag (style) untuk menambahkan css di file html langsung. <br>
    
 3. Jelaskan perbedaan antara margin dan padding. <br>
    Jawab : <br>
-   margin adalah ruang di luar yang mengelilingi element, lalu padding adalah seberapa banyak ruang yang dimiliki oleh elemen tersebut.
+   margin adalah ruang di luar yang mengelilingi element, lalu padding adalah seberapa banyak ruang yang dimiliki oleh elemen tersebut. <br>
    
 4. Jelaskan perbedaan antara framework CSS Tailwind dan Bootstrap. Kapan sebaiknya kita menggunakan Bootstrap daripada Tailwind, dan sebaliknya? <br>
    Jawab : <br>
-   tailwind menggunakan utility yang sudah pre-built, jadi dapat dikostumisasi dengan lebih menyeluruh oleh developer. Bootstrap sudah memiliki komponen yang pre-built, jadi developer dapat tinggal memasukkan komponennya. jadi tailwind dapat digunakan dalam project yang diharuskan untuk memiliki desain yang lebih unik dan fleksible, lalu bootstrap dapat digunakan dalam project yang tidak terlalu mementingkan keunikan desain dan yang lebih konsisten.
+   tailwind menggunakan utility yang sudah pre-built, jadi dapat dikostumisasi dengan lebih menyeluruh oleh developer. Bootstrap sudah memiliki komponen yang pre-built, jadi developer dapat tinggal memasukkan komponennya. jadi tailwind dapat digunakan dalam project yang diharuskan untuk memiliki desain yang lebih unik dan fleksible, lalu bootstrap dapat digunakan dalam project yang tidak terlalu mementingkan keunikan desain dan yang lebih konsisten. <br>
    
 5. Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas secara step-by-step (bukan hanya sekadar mengikuti tutorial). <br>
    Jawab : <br>
-   saya mengimplementasi checklist menggunakan gabungan antara css biasa dan bootstrap, untuk css saya tambahkan seperti display flex dan lainnya, dan saya menggunakan bootstrap untuk template navbar, desain button, input dan lain-lain.
+   saya mengimplementasi checklist menggunakan gabungan antara css biasa dan bootstrap, untuk css saya tambahkan seperti display flex dan lainnya, dan saya menggunakan bootstrap untuk template navbar, desain button, input dan lain-lain. <br>
    
 </details>
 
@@ -127,17 +127,22 @@ link app adaptable : [devandra-tugas2](https://devandra-tugas2.adaptable.app/mai
 
 1. Jelaskan perbedaan antara asynchronous programming dengan synchronous programming. <br>
    Jawab : <br>
-   
+   perbedaan dari programming asynchronous dan synchronous adalah pada saat asynchronous, program dapat berjalan secara bersamaan atau parallel. lalu pada synchronous programming, program hanya berjalan secara linear, atau satu persatu. contohnya pada pemrograman asynchronous dapat mengirimkan request secara bersamaan. <br>
    
 2. Dalam penerapan JavaScript dan AJAX, terdapat penerapan paradigma event-driven programming. Jelaskan maksud dari paradigma tersebut dan sebutkan salah satu contoh penerapannya pada tugas ini. <br>
    Jawab : <br>
+   event-driven programming adalah paradigma dimana semua bagian dari program, objek, dan lainnya berkomunikasi satu sama lain, contoh dalam tugas ini adalah, saat kita menekan tombol tambahkan item, maka akan muncul form untuk menulis item baru, lalu saat kita submit formnya, maka langsung diupdate item barunya pada tampilan. <br>
    
 3. Jelaskan penerapan asynchronous programming pada AJAX. <br>
    Jawab : <br>
+   asynchronous programming pada ajax memungkinkan javascript untuk mengirim request tanpa menunggu response, contohnya saat kita memanggil fungsi yang asynchronous pada javascript, request akan dikirim namun program selanjutnya akan terus dijalankan. <br>
    
 4. Pada PBP kali ini, penerapan AJAX dilakukan dengan menggunakan Fetch API daripada library jQuery. Bandingkanlah kedua teknologi tersebut dan tuliskan pendapat kamu teknologi manakah yang lebih baik untuk digunakan. <br>
    Jawab : <br>
+   fetch api adalah native atau bawaan dari browser javascript, namun jQuery hanyalah library, dan ada beberapa perbedaan syntax, seperti fetch yang menggunakan promise, namun jquery lebih simple dalam penggunaannya. <br>
+   
 5. Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas secara step-by-step (bukan hanya sekadar mengikuti tutorial). <br>
    Jawab : <br>
+   pertama, saya buat fungsi untuk GET dan POST pada views.py, lalu akan ditambahkan ke urls.py, setelah itu baru saya modifikasi file htmlnya agar tabel dapat dimodifikasi dengan ajax. pada scripts di html saya menambahkan refresh untuk mengupdate tabel data secara real time, lalu juga ada fungsi untuk menambahkan item ke produk menggunakan modal dari bootstrap. <br>
    
 </details>
